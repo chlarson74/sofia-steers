@@ -4549,7 +4549,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
-				display: block;
+				display: none;
 			}
 
 		}
