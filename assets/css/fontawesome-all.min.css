@@ -4,7 +4,26 @@
  */
 
 
-
+.sofia {
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+  
+  footer p, footer li, footer a, footer h3, footer b {
+    color:black;
+  }
+  footer li {
+    font-size: .8em;
+  }
+  #footer > section:nth-child(1) {
+    flex: 2; /* Takes up 2/3 of the footer */
+  }
+  
+  #footer > section:nth-child(2) {
+    flex: 1; /* Takes up 1/3 of the footer */
+  }
 
 
 
