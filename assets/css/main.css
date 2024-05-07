@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: darkolivegreen;
+	/* background-color: darkolivegreen; */
 }
 
 ol, ul {
@@ -100,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: darkolivegreen;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3480,7 +3480,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 0;
 			}
 
 				#intro h1 {
