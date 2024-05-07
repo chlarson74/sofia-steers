@@ -13,10 +13,11 @@
   
   footer p, footer li, footer a, footer h3, footer b {
     color:black;
+    font-size: 1em;
   }
-  footer li {
-    font-size: .8em;
-  }
+  /* footer li {
+    font-size: 1em;
+  } */
   #footer > section:nth-child(1) {
     flex: 2; /* Takes up 2/3 of the footer */
   }
