@@ -173,7 +173,7 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	em, i {
+	figcaption, em, i {
 		font-style: italic;
 	}
 
