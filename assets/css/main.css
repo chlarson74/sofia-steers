@@ -173,11 +173,25 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	figcaption, em, i {
+	em, i {
+		font-style: italic;
+
+	}
+	figcaption {
 		font-style: italic;
 		line-height: 1.5em;
 	}
-
+	/* By default (mobile), the line break is shown */
+.responsive-break {
+	display: inline;
+  }
+  
+  /* On desktops (min-width 768px or your breakpoint), hide the line break */
+  @media (min-width: 768px) {
+	.responsive-break {
+	  display: none;
+	}
+  }
 	p {
 		text-align: justify;
 		margin: 0 0 2rem 0;
